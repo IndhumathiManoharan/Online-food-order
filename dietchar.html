@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta chaRs.et="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="alifstyle.css"></link>
+  
+</head>
+<body>
+  <div class ="top-left">
+<a href="main.html"><button class="btn"><i class="fa fa-home">Home</i></a></button> 
+</div>
+
+<h1>Diet Chart</h1>
+  <div id="updateCart">
+  <div class="container">
+        <aside>
+            <aside>
+                <h2>Product Basket</h2>
+                <ul id="cart"></ul>
+				
+                <div id="total">0</div>
+				<form method="POST" action="orders.php">
+				<input type="text" name="cook"  placeholder="Enter Cooking Instruction"></input><br>
+				Item list
+				<input type="text" name="dish1"  placeholder="Dish1"></input>
+				<input type="text" name="qtn1" placeholder="quantity"></input><br>
+                <input type="text" name="dish2"  placeholder="Dish2"></input>
+				<input type="text" name="qtn2" placeholder="quantity"></input><br>
+				<input type="text" name="dish3"  placeholder="Dish3"></input>
+				<input type="text" name="qtn3" placeholder="quantity"></input><br>
+				<input type="text" name="dish4"  placeholder="Dish4"></input>
+				<input type="text" name="qtn4" placeholder="quantity"></input><br>
+				<input type="text" name="dish5"  placeholder="Dish5"></input>
+				<input type="text" name="qtn5" placeholder="quantity"></input><br>
+				<input type="text" name="username" placeholder="username"></input>
+				<input type="text" name="adds" placeholder="address"></input>
+				<input type="text" name="pin" placeholder="pincode"></input>
+				<input type="radio" id="cash-on-delivery" name="cash" value="cash"></input>CashOnDelivery
+				<br><input type="radio" id ="QR-Code"name="cash" value="QRcode">QR-Code</input><br>
+				<img src="qrcode.jpg" width="100" height="100"></img><br>
+				<button name="submit" id="submit">Placeorder</button>
+			     </aside>
+        </aside>
+  </div>
+  </div>
+  </form> 
+   <h3>BreakFast:</h3>
+        <main>
+            <div class="parent">
+              <div class="card" id="break1">
+                <div class="child1" ><br><br>
+                    <img src="thinnaidli.jpg" alt="">
+                    <h2>Thinnai Idli</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				<div class="card" id="break2">
+                <div class="child1" ><br><br>
+                    <img src="ragipani.jpg" alt="">
+                    <h2>Ragi Panniyaram</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				<div class="card" id="break3">
+                <div class="child1" ><br><br>
+                    <img src="eggputtu.jpg" alt="">
+                    <h2>Egg Puttu</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				</div>
+				</main>
+                <h3>Lunch:</h3>
+				
+				<main>
+				<div class="parent2">
+				<div class="card" id="break4">
+                <div class="child1" ><br><br>
+                    <img src="mushrice.jpg" alt="">
+                    <h2>Mushroom Rice</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				<div class="card" id="break5">
+                <div class="child1" ><br><br>
+                    <img src="vegrice.jpg" alt="">
+                    <h2>Vegetable Rice</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				<div class="card" id="break6">
+                <div class="child1" ><br><br>
+                    <img src="jack.jpg" alt="">
+                    <h2>Jack fruit Rice</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				</div>
+				</main>
+				<h3>Dinner:</h3>
+				
+				<main>
+				<div class="parent3">
+				<div class="card" id="break7">
+                <div class="child1" ><br><br>
+                    <img src="WheatRavaUpma.jpg" alt="">
+                    <h2>Vegetable Upma</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+				
+              <div class="card" id="break8">
+                <div class="child1" ><br><br>
+				
+                    <img src="chickragiroll.jpg" alt="apple">
+                    <h2>Chick Ragi Roll</h2>
+                    <p><mark><span class="price">100</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.5</div><br>
+						      <div class="plan-price-meal">calories:20g</div><br>
+
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                </div>
+              <div class="card" id="break9">
+                <div class="child1" ><br><br>
+                    <img src="ravaidli.jpg" alt="banan">
+                    <h2>Rava Idli</h2>
+                    <p><mark><span class="price">200</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.1</div><br>
+                   <div class="plan-price-meal">Calories:50g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+   </div>
+</div>
+</main>
+  <script src = "add1.js"></script>
+</body>
+</html>

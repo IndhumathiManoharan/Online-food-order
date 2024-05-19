@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Login and reg</title>
+<link rel="stylesheet" href="login.css">		  
+</head>
+<body><br><br>
+    <h1 style="color:green;text-align:center">*HEALTHY FEAST*</h1>
+    <div class="for-box">
+	    <div class="button-box">
+		    <div id="btn"></div>
+		     <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+			 <button type="button" class="toggle-btn" onclick="signin()">Sign In</button></div>
+		     <form id="login" method="post" action="login.php" class="input-group">
+		      <input type="text" name="username" class="input-field" placeholder="Your Uname" required>
+			  <input type="password" name="password" class="input-field" placeholder="Enter Password" required><br><br><br>
+			  <button type="submit" name="login" class="submit-btn">Login</button><br><br><br><br>
+			  <h3 style= "text-align:center">Signup first to get your username and password</h3>
+		   </form>
+		        <form id="signin" method="post" action="signpage.php" class="input-group"> 
+               <input type="text" name="username" class="input-field"  placeholder="Your Uname" required>
+               <input type="password" name="password" class="input-field" placeholder="Enter Password" required>
+			   <input type="password" name="conpass" class="input-field" placeholder="Re-enter Password" required>
+			   <input type="email" name="email" class="input-field" placeholder="Your E-Mail" required>
+			   <input type="text" name="phone" class="input-field"  placeholder="Your Phone no"required><br><br><br>
+			   <button type="submit" class="submit-btn">Sign-In</button>
+		   </form>
+		  </div>
+		  <script>
+		  var x= document.getElementById("login");
+	      var y= document.getElementById("signin");
+		  var z= document.getElementById("btn");
+			  
+		 function signin(){
+			 x.style.left= "-400px";
+		     y.style.left= "50px";
+			 z.style.left= "110px";
+		  }
+		  function login(){
+			 x.style.left= "50px";
+		     y.style.left= "450px";
+			 z.style.left= "0px";
+		  }
+		  
+	 </script>	  
+			  
+	</body>
+    </html>	
+		  
+		  

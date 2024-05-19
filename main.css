@@ -1,0 +1,122 @@
+body{
+  background-image: url('mainbk.jpg');
+  background-size:cover;   
+}
+a{
+  text-decoration:none;
+}
+p{
+	font-size:30px;
+	text-align:center;
+	color:white;
+	margin-top:140px;
+	margin-left:650px;
+	}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('img/search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-left:580px;
+}
+input[type=text]:focus {
+  width: 30%;
+}
+h1{
+ margin-left:10px;
+ margin-top:0px;
+ font-size:45px;
+ font-family:verdana;
+ color:green;
+ }
+ 
+.section-plans{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    background-color: #fff;
+    border-radius: 25px;
+    width: 100%;
+	height:50%;
+    margin-leftpx;
+    -webkit-box-shadow: 0 2px 2px #f0f0f0;
+    -ms-box-shadow: 0 2px 2px #f0f0f0;
+    box-shadow: 0 2px 2px #f1c40f;
+	text-align:center;    
+}
+.plan-box div{
+    padding: 15px;
+}
+
+.plan-price{
+    font-size: 200%;
+    margin-bottom: 20px;
+    color: #f1c40f;
+}
+
+.plan-price span{
+    font-size: 50%;
+	text-align:left;
+}
+.plan-price-meal{
+    font-size: 120%
+}
+
+.plan-box ul{
+    list-style: none;
+    
+}
+.plan-box li{
+    padding: 5px 0;
+}
+.centered{
+position:absolute;
+top:160%;
+left:35%;
+transform:translate(-50%,-50%);
+}
+
+
+.align{
+	margin-left:700px;
+}
+/*main navi*/
+.main-nav{
+    float: right;
+    list-style: none;
+     
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px; 
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    padding:-30px 0 12px 0; 
+    padding-bottom: 16px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #f1c40f;  
+    padding-bottom: 16px;
+
+}
+

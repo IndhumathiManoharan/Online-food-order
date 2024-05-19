@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">  
+<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+     
+      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">	   
+	   <style>
+	   blockquote:before{
+    content: "\201C";
+    font-size: 600%;
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: -8px;
+    
+}
+
+blockquote{
+    padding: 2%;
+    line-height: 145%;
+    font-style: italic;
+    position: relative;
+    margin-top: 15px;
+	font-size:20px;
+}
+cite{
+    font-size: 100%;
+    margin-top: 25px;
+    display: block;
+	}
+	   h2{
+   
+    font-weight:700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+	   .btn {
+  background-color:yellow;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 26px;
+  cursor: pointer;
+  text-align:left;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.logo{
+    float:right;
+	width:180px;
+	heigth:100px;
+	}
+ .top-left{
+   top:10%;
+   left:10%;
+   }
+   .row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;    
+}
+ body{
+  background-image: url('feedback.jpg');
+   
+  }
+  
+   </style>
+    </head>
+    <body>
+	<background-image src="feedback1.jpg">
+        <header>
+            <nav>
+        <img src="logo.jpg" alt="healthy logo" class="logo">
+<div class ="top-left">
+<a href="index.html"><button class="btn"><i class="fa fa-home">Home</i></a></button> 
+</div>
+           
+  <section class="section-testimonials">
+            <div class="row">
+               <h2>Our customers can't live without us</h2>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                  <blockquote>
+                      
+<b>Healthy Feast is just awesome! I just launched a startup which leaves me with no time for cooking, so Healthy Feast is a life-saver. Now that I got used to it, I couldn't live without my daily meals!<b>
+                      <cite> Atchaya.A
+					  </cite>
+                  </blockquote>
+                
+                
+                </div>
+             <div class="col span-1-of-3">
+                  <blockquote>
+                      
+
+<b>I was looking for a quick and easy food delivery service in town. I tried a lot of them and ended up with Healthy Feast. Best food delivery service in town. Keep up the great work!<b>
+                      <cite> Indhumathi.M</cite>
+                  </blockquote>
+                
+                
+                </div>
+                <div class="col span-1-of-3">
+                  <blockquote>
+                      
+<b>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in town, but no one comes even close to Healthy Feast. Me and my family are so in love!<b>
+                      <cite> Santhalakshmi.J</cite>
+                  </blockquote>
+                
+                
+                </div>
+                            
+            </div>
+    
+        </section>
+		<form>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label style="font-size:150%">Drop your feedback</label>
+              </div>
+            <div class="col span-2-of-3">
+			    <form method="POST" action="feedback.php">
+                <textarea rows="5" cols="35" name="message" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>&nbsp;</label>
+              </div>
+            <div class="col span-2-of-3">
+               <button id="submit" name="submit" >SUBMIT</button>
+			   
+              </div>
+			  </div>
+	   
+	<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/src/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/src/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+</form>
+</body>
+</html>
+
+		
