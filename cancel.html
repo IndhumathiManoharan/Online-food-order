@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>ORDERPLACED</title>
+</head>
+<style>
+body{
+	background-image: url('cancel.jpg');
+	} 
+h1{
+   font-size:55px;
+   text-align:center;
+   margin-top:300px;
+   }   
+   h2{
+       margin-left:950px;
+	   font-size:35px;
+	 }
+input[type=text] {
+  width: 10%;
+  padding: 10px 10px;
+  margin: 8px 1250px;
+  box-sizing: border-box;
+}
+
+
+button[type=submit] {
+  width: 10%;
+  padding: 10px 10px;
+  margin: 8px 1250px;
+  box-sizing: border-box;
+}
+.alignment {
+display: flex;
+flex-direction: row;
+margin: 8px 1250px;
+}
+a{
+  margin:8px 1250px;
+  font-size:25px;
+  }
+ </style>
+ 
+ <h1>Your order has been placed successfully</h1>
+ <b><h2> To cancel this order click below</h2></b>
+ <form method="POST" action="cancel.php">
+ <input type="text" name="username" placeholder="username"></input><br>
+ <div class="alignment">
+ <input type="radio" id="definitely" value="ordercancelled" name="cancel"></input>Cancel<br></div>
+ <button type="submit" name="submit">OK</button>
+ </form>
+ <a href="index.html">Back to home--></a>

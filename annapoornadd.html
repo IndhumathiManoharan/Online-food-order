@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta chaRs.et="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="alifstyle.css"></link>
+  
+</head>
+<body>
+  <div class ="top-left">
+<a href="main.html"><button class="btn"><i class="fa fa-home">Home</i></a></button> 
+</div>
+
+<h1>Annapoorna Veg Hotel </h1>
+  <h3>Highly Rated Dishes:</h3>
+  <div id="updateCart">
+  <div class="container">
+  <aside>
+            <aside>
+                <h2>Product Basket</h2>
+                <ul id="cart"></ul>
+                <br>
+                <div id="total">0</div>
+				<form method="POST" action="orders.php">
+				<input type="text" name="cook"  placeholder="Enter Cooking Instruction"></input><br>
+				Item list
+				<input type="text" name="dish1"  placeholder="Dish1"></input>
+				<input type="text" name="qtn1" placeholder="quantity"></input><br>
+                <input type="text" name="dish2"  placeholder="Dish2"></input>
+				<input type="text" name="qtn2" placeholder="quantity"></input><br>
+				<input type="text" name="dish3"  placeholder="Dish3"></input>
+				<input type="text" name="qtn3" placeholder="quantity"></input><br>
+				<input type="text" name="dish4"  placeholder="Dish4"></input>
+				<input type="text" name="qtn4" placeholder="quantity"></input><br>
+				<input type="text" name="dish5"  placeholder="Dish5"></input>
+				<input type="text" name="qtn5" placeholder="quantity"></input><br>
+				<input type="text" name="username" placeholder="username"></input>
+				<input type="text" name="adds" placeholder="address"></input>
+				<input type="text" name="pin" placeholder="pincode"></input>
+				<input type="radio" id="cash-on-delivery" name="cash" value="cash"></input>CashOnDelivery
+				<br><input type="radio" id ="QR-Code"name="cash" value="QRcode">QR-Code</input><br>
+				<img src="qrcode.jpg" width="100" height="100"></img><br>
+				<button name="submit" id="submit">Placeorder</button>
+			    
+				</aside>
+        </aside>
+  </div>
+  </div>
+  </form>
+  
+  <mained>
+    <div class="carded">
+  <div class = "plan-box">
+    <div class="card" id="anna1">
+    <img src = "chennadosa.jpg" class="img1" style = "width:80%"  >
+    <h2>Chenna Dosa</h2>
+     <p><mark><span class="price">70</span>Rs.</mark></p>
+	      <div class="plan-price-meal">Ratings:4.1</div><br>
+          <div class="plan-price-meal">calories:40g</div><br>
+       <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <span class="add-to-cart">Add to cart</span>
+         <span class="added">Added</span>
+         <i class="fas fa-shopping-cart"></i>
+         <i class="fas fa-box"></i>
+       </button>
+      <a class="youtube-link"  target="_blank"></a>
+    </div>
+</div>
+       <div class = "plan-box">
+    <div class="card" id="anna2">
+    <img src = "idliupma.jpg" class="img1" style = "width:85%"  >
+    <h2>Idliupma</h2>
+     <p><mark><span class="price">50</span>Rs.</mark></p>
+	      <div class="plan-price-meal">Ratings:4.0</div><br>
+     <div class="plan-price-meal">calories:20g</div><br>
+       <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <span class="add-to-cart">Add to cart</span>
+         <span class="added">Added</span>
+         <i class="fas fa-shopping-cart"></i>
+         <i class="fas fa-box"></i>
+       </button>
+      <a class="youtube-link"  target="_blank"></a>
+    </div>
+</div>
+       <div class = "plan-box">
+    <div class="card" id="anna3">
+    <img src = "lemonsevai.jpg" class="img1" style = "width:85%"  >
+    <h2>LemonSevai</h2>
+     <p><mark><span class="price">40</span>Rs.</mark></p>
+	      <div class="plan-price-meal">Ratings:4.3</div><br>
+
+     <div class="plan-price-meal">calories:40g</div><br>
+       <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <span class="add-to-cart">Add to cart</span>
+         <span class="added">Added</span>
+         <i class="fas fa-shopping-cart"></i>
+         <i class="fas fa-box"></i>
+       </button>
+      <a class="youtube-link"  target="_blank"></a>
+    </div>
+</div>
+       <div class = "plan-box">
+    <div class="card" id="anna4">
+    <img src = "greenpoori.jpg" class="img1" style = "width:85%"  >
+    <h2>Greenpoori</h2>
+     <p><mark><span class="price">30</span>Rs.</mark></p>
+	      <div class="plan-price-meal">Ratings:4.5</div><br>
+
+     <div class="plan-price-meal">calories:10g</div><br>
+       <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <span class="add-to-cart">Add to cart</span>
+         <span class="added">Added</span>
+         <i class="fas fa-shopping-cart"></i>
+         <i class="fas fa-box"></i>
+       </button>
+      <a class="youtube-link"  target="_blank"></a>
+    </div>
+</div>
+       <div class = "plan-box">
+    <div class="card" id="anna5">
+    <img src = "mangoputtu.jpg" class="img1" style = "width:85%"  >
+    <h2>MangoPuttu</h2>
+     <p><mark><span class="price">120</span>Rs.</mark></p>
+	      <div class="plan-price-meal">Ratings:4.5</div><br>
+
+     <div class="plan-price-meal">calories:50g</div><br>
+       <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <span class="add-to-cart">Add to cart</span>
+         <span class="added">Added</span>
+         <i class="fas fa-shopping-cart"></i>
+         <i class="fas fa-box"></i>
+       </button>
+      <a class="youtube-link"  target="_blank"></a>
+    </div>
+</div>
+      
+      
+    </div>
+    </mained>
+  
+   <h3>Dishes:</h3>
+        <main>
+            <div class="parent">
+              <div class="card" id="anna6">
+                <div class="child1" ><br><br>
+                    <img src="ragidli.jpg" alt="">
+                    <h2>RagiIdli</h2>
+                    <p><mark><span class="price">50</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:30g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+                </div>
+              <div class="card" id="anna2">
+                <div class="child1" ><br><br>
+                    <img src="idliupma.jpg" alt="apple">
+                    <h2>Idliupma</h2>
+                    <p><mark><span class="price">50</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.5</div><br>
+						      <div class="plan-price-meal">calories:20g</div><br>
+
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                </div>
+              <div class="card" id="anna8">
+                <div class="child1" ><br><br>
+                    <img src="idli.jpg" alt="banan">
+                    <h2>Idli</h2>
+                    <p><mark><span class="price">30</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.1</div><br>
+                   <div class="plan-price-meal">Calories:20g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+              </div>
+                <div class="card">
+                <div class="child1" id="anna9"><br><br>
+                    <img src="dosa.jpg" alt="banan">
+                    <h2>Dosa</h2>
+                    <p><mark><span class="price">60</span>Rs.</mark></p>
+					     <div class="plan-price-meal">Ratings:4.1</div><br>
+     <div class="plan-price-meal">calories:20g</div><br>
+
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                </div>
+                  <div class="card" id="anna10">
+              <div class="child1" ><br><br>
+                    <img src="carrotdosa.jpg" alt="banan">
+                    <h2>CarrotDosa</h2>
+                    <p><mark><span class="price">90</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.0</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+              </div>
+                  </div>
+                    <div class="card" id="anna1">
+              <div class="child1" ><br><br>
+                    <img src="chennadosa.jpg" alt="banan">
+                    <h2>ChennaDosa</h2>
+                    <p><mark><span class="price">80</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.2</div><br>
+     <div class="plan-price-meal">Calories:40g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+              </div>
+                    </div>
+                      <div class="card" id="anna12">
+              <div class="child1"><br><br>
+                    <img src="murdosa.jpg" alt="apple">
+                    <h2>MudakathanDosa</h2>
+                    <p><mark><span class="price">120</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.2</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+              </div>
+                      </div>
+                <div class="card" id="anna13">        
+                <div class="child1" ><br><br>
+                    <img src="mush65.jpg" alt="apple">
+                    <h2>Mush65</h2>
+                    <p><mark><span class="price">90</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.4</div><br>
+     <div class="plan-price-meal">Calories:40g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                </div>
+                  <div class="card" id="anna3">
+                <div class="child1" ><br><br>
+                    <img src="palak.jpg" alt="banan">
+                    <h2>PalakPaneer</h2>
+                    <p><mark><span class="price">130</span>Rs..</mark></p>
+					<div class="plan-price-meal">Ratings:4.5</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                  </div>
+              <div class="card" id="anna15">      
+              <div class="child1"><br><br>
+                    <img src="gobig.jpg" alt="apple">
+                    <h2>Gobigravy</h2>
+                    <p><mark><span class="price">90</span>Rs..</mark></p>
+					<div class="plan-price-meal">Ratings:4.2</div><br>
+     <div class="plan-price-meal">Calories:60g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+              </div>
+              </div>
+                <div class="card" id="anna16">
+                <div class="child1"><br><br>
+                    <img src="jack.jpg" alt="apple">
+                    <h2>Jackrice</h2>
+                    <p><mark><span class="price">190</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.3</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                </div>
+                  <div class="card" id="anna17">
+                <div class="child1"><br><br>
+                    <img src="tomrice.jpg" alt="banan">
+                    <h2>TomatoRice</h2>
+                    <p><mark><span class="price">40</span>Rs..</mark></p>
+					<div class="plan-price-meal">Ratings:4.2</div><br>
+     <div class="plan-price-meal">Calories:40g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                  </div>
+                
+                 <div class="card" id="anna18">  
+                <div class="child1"><br><br>
+                    <img src="greenrice.jpg" alt="apple">
+                    <h2>GreenRice </h2>
+                    <p><mark><span class="price">100</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.4</div><br>
+     <div class="plan-price-meal">Calories:70g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                 </div>
+                   <div class="card" id="anna19">
+                <div class="child1"><br><br>
+                    <img src="cornsoup.jpg" alt="banan">
+                    <h2>cornSoup</h2>
+                    <p><mark><span class="price">50</span>Rs.</mark></p>
+					<div class="plan-price-meal">Ratings:4.0</div><br>
+     <div class="plan-price-meal">Calories:10g</div><br>
+                   <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+                </div>
+                   </div>
+				    <div class="card" id="anna20">   
+              <div class="child1" ><br><br>
+                    <img src=" butter.jpg" alt="apple">
+                    <h2>ButterMilk</h2>
+                    <p><mark><span class="price">50</span>Rs..</mark></p>
+					<div class="plan-price-meal">Ratings:4.0</div><br>
+     <div class="plan-price-meal">Calories:50g</div><br>
+                    <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+               
+              </div>
+                 </div>
+         </div>
+       </main>
+    </div>
+  <script src = "add1.js">
+  </script>
+</body>
+</html>  
