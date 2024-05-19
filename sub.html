@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Subscription</title>
+</head>
+<style>
+body{
+	background-image: url('sub.jpg');
+	background-repeat: repeat-x y;
+  
+}  
+ h1{
+	 font-size:65px;
+	 margin-left:200px;
+ }
+ *{
+	 margin: 0;
+	 padding: 0;
+	 font-family:sans-serif;
+ } 
+ .for-box{
+     width: 580px;
+	 height: 1000px;
+	 position: relative;
+	 margin: 3% auto;
+	 background: #fff;
+	 padding: 5px;
+	 overflow:hidden;
+     text-align: center;
+ }
+ input[type=text] {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+select[name=pay] {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+.btn {
+  background-color:yellow;
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin:8px 0px;
+}
+.logo{
+    height:120px;
+    width:200px;
+    float:right;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:yellow;
+}
+.big{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  font-size:18px;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin:8px 0px;
+} 
+</style>
+<body>
+<img src="logo.jpg" alt="healthy logo" class="logo">
+<a href="index.html"><button class="btn"><i class="fa fa-home">Home</i></a></button>
+<h1 style="text-align:center">*SUBSCRIPTION*</h1>
+<div class="for-box">
+<form method="POST" action="sub.php"><br><br>
+<b><p style="font-size:20px">Select your plan</p><br><b>
+<input type="radio" id="month" name="pay" value="month-Rs99">Month-Rs:99 &nbsp
+<input type="radio" id="year" name="pay" value="year-Rs299">Year-Rs:299<br>
+<input type="text" name="username" placeholder="Username" required><br>
+Card type:&nbsp &nbsp <input type="radio" id="card" name="card" value="debitcard">Debit &nbsp
+<input type="radio" id="card" name="card" value="creditcard">Credit<br>
+<input type="password" name="num" placeholder="Card Number"><br>
+<input type="date" name="exp" placeholder="Expiry date"><br>
+<input type="text" name="cvv" placeholder="CVV">
+<input type="text" name="fname"placeholder="First Name"><br>
+<input type="text" name="lname" placeholder="Last Name"><br>
+Another Way:
+<input type="radio" id="quick" name="quick" value="Qr code">QR CODE:<br><img src="qrcode.jpg" width="200" height="200"></img><br>
+<button class="btn" name="submit">Submit</button>
+ </form>    
+</body>    
+</html>	
+		  
+		  

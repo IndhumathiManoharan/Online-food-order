@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/css/style.css"> -->
+<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+ 
+</head>
+<style>
+.btn {
+  background-color:yellow;
+  border: dash;
+  color: yellow;
+  padding: 12px 16px;
+  font-size: 26px;
+  cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: grey;
+}
+.logo{
+    height:170px;
+    width:200px;
+    float:right;
+  }
+ .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left:750px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+} 
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin-left:100px;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-left {
+  position: absolute;
+  top: 45px;
+  left: 450px;
+  bottom: 50px;
+  font-size:35px;
+}
+p {
+ font-size:50px;
+}
+</style>
+<body>
+<img src="logo.jpg" alt="healthy logo" class="logo">
+<a href="index.html"><button class="btn"><i class="fa fa-home">Home</i></a></button><b>
+<section class="section-steps" id="works">
+            <div class="row">
+ <h2>Party Hall booking</h2>
+ 
+</div>
+<a class="button"><i class="arrow down"></i></a>
+<br>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="np.jpg" style="width:100%">
+    <img src="roof.jpg" style="width:100%">
+    <img src="event.jpg" style="width:100%">
+    <img src="char.jpg" style="width:100%">
+    <img src="wht.jpg" style="width:100%">
+    <img src="brun.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="ball.jpg" style="width:100%">
+    <img src="ban.jpg" style="width:100%">
+    <img src="event.jpg" style="width:100%">
+    <img src="par.jpg" style="width:100%">
+    <img src="bir.jpg" style="width:100%">
+	<img src="aa.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="poo.jpg" style="width:100%">
+    <img src="png.jpg" style="width:100%">
+    <img src="event.jpg" style="width:100%">
+	<img src="build.jpg" style="width:100%">
+    <img src="oo.jpg" style="width:100%">
+    <img src="sn.jpg" style="width:100%">
+    <img src="yel.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="pih.jpg" style="width:100%">
+    <img src="event.jpg" style="width:100%">
+    <img src="dec.jpg" style="width:100%">
+    <img src="dan.jpg" style="width:100%">
+    <img src="wed.jpg" style="width:100%">
+    <img src="poo.jpg" style="width:100%">
+  </div>
+<div class="container"><br><br><br><br><br>
+  <img src="birthday.jpg" alt="partcen" style="width:200%;">
+  <div class="top-left">*Book us*</div>
+  <div class="centered">
+  <form method="POST" action="party.php">
+  <input type="text" name="username" placeholder="Username" required></input><br><br>
+  <input type="text" name="email" placeholder="Email ID" required></input><br><br>
+  <input type="text" name="phone" placeholder="Phone Number" required></input><br><br>
+  <input type="date" name="date" placeholder="Event Date" required></input><br><br>
+  <input type="text" name="guest" placeholder="Number of Guests Expected" required></input><br><br>
+  Events Type:<br><br><input type="checkbox" id="event" name="event[]" value="Birthday Party">
+  <label for="vehicle1"> Birthday Party</label><br>
+  <input type="checkbox" id="event" name="event[]" value="Corporate Party">
+  <label for="vehicle2"> Corporate Party</label><br>
+  <input type="checkbox" id="event" name="event[]" value="Bussiness Meet">
+  <label for="vehicle3"> Bussiness Meet</label><br>
+  <input type="checkbox" id="event" name="event[]" value="Photoshoot Event">
+  <label for="vehicle4"> Photoshoot Event</label><br>
+  <input type="checkbox" id="event" name="event[]" value="Other Events">
+  <label for="vehicle5"> Other Events</label><br><br>
+   <button type="submit" name="submit">SUBMIT</button></section>
+ </form>
+ </div>
+</div>
+</div>
+
+
+</body>            
+</html>

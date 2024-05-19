@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">   
+<title>countdown</title>
+<link rel="stylesheet" type="text/css" href="tamilstyle.css">
+</head>
+<body>
+<div id="timer">
+<div class="img2">
+ <div id="timed">
+  <nav>
+  <a href="index.html"><button class="btn"><i class="fa fa-home">Home</i></a></button><b>
+
+        <div class="hero-test">
+           <h1>Healthy Feast</h1>
+        </div>
+		</nav>
+		</div>
+   <br>
+   <div id="times">
+   &nbsp
+   &nbsp
+   &nbsp
+   <img src="pngal.jpg" width="250" height="250"></img>
+    <img src="kanum-pongal.jpg" width="250" height="250"></img>
+	<img src="tamilnew.jpg" width="250" height="250"></img>
+    <img src="karthigaideepam.jpg" width="250" height="250"></img>
+	<img src="diwali.jpg" width="250" height="250"></img>
+
+</div>
+  <br>
+  <br>
+  <br>
+ <div id="time">
+   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp
+   &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp
+
+     <div class="circle" style="--clr:#1eb9ff;">
+	 <svg>
+	  <circle  cx="70" cy="70" r="70" id="dd"></circle>	  
+	 </svg>  
+ 	 <div id="days">00<br><span>Days</span></div>
+      </div>
+	  <div class="circle" style="--clr:#ff2972;">
+	 <svg>
+	  <circle  cx="70" cy="70" r="70" id="hh"></circle>	  
+	 </svg>  
+ 	 <div id="hours">00<br><span>Hours</span></div>
+      </div>
+     <div class="circle" style="--clr:#fee800;">
+	 <svg>
+	  <circle  cx="70" cy="70" r="70" id="mm"></circle>	  
+	 </svg>  
+ 	 <div id="minutes">00<br><span>Minutes</span></div>
+      </div>
+     <div class="circle" style="--clr:#04fc43;">
+	 <svg>
+	  <circle  cx="70" cy="70" r="70" id="ss"></circle>	  
+	 </svg>  
+ 	 <div id="seconds">00<br><span>Seconds</span></div>
+      </div>
+
+ </div>
+  <br>
+  <br>
+  <br>
+ <div id="timer">
+&nbsp 
+   &nbsp
+   &nbsp
+	<img src="aadiperuku.jpg" width="250" height="250"></img>
+    <img src="vinayagar.jpg" width="250" height="250"></img>
+    <img src="imgkrish.jpg" width="250" height="250"></img>
+	<img src="ayudhapuja.jpg" width="250" height="250"></img>
+    <img src="babykrishna.jpg" width="250" height="250"></img>
+ </div>
+ </div>
+ </div>
+ <br>
+ <div id="pongal">
+ <div class="img1">
+  <nav>
+  <a href="index.html"><button class="btn"><i class="fa fa-home">Home</i></a></button><b>
+        <div class="hero-test">
+           <h1 style="color:white"><b>Healthy Feast</b></h1>
+        </div>
+		</nav>
+ <div id="updateCart">
+  <div class="container">
+        <aside>
+		          <br><br><br>
+  <br><br><br>  <br><br><br>  
+
+                <h2>Product Basket</h2>
+                <ul id="cart"></ul>
+				
+                <div id="total" style="color:white">0</div>
+				<form method="POST" action="tamil.php">
+				<input type="text" name="cook"  placeholder="Enter Cooking Instruction"></input><br>
+				Item list<br>
+				<input type="text" name="dish1"  placeholder="Dish1"></input><br>
+				<input type="text" name="qtn1" placeholder="quantity"></input><br>
+                
+				<input type="text" name="username" placeholder="username"></input><br>
+				<input type="text" name="adds" placeholder="address"></input><br>
+				<input type="text" name="pin" placeholder="pincode"></input><br>
+				<input type="radio" id="cash-on-delivery" name="cash" value="cash"></input>CashOnDelivery
+				<br><input type="radio" id ="QR-Code"name="cash" value="QRcode">QR-Code</input><br>
+				<img src="qrcode.jpg" width="100" height="100"></img><br>
+				<button name="submit" id="submit">Placeorder</button>
+        </aside>
+  </div>
+  </div>
+  </form> 
+  <br><br><br>
+			<div class="top-right">
+			              <div class="card" id="break1">
+
+                        <div>
+                            <h2 style="color:white;font-size:60px;">Lunch</h2>
+                    <p><mark><span class="price">249</span>Rs.</mark></p>
+                        </div>
+                        <div class="plan-price-meal">
+                            <ul style="color:white">
+                                <li>Full Meals<span>-/800g</span> </li>
+                                <li>Maangai Pachadi<span>-/90g</span></li>
+                                <li>paruppu poli<span>-/50g</span></li>
+                                <li>ButterMilk<span>-/80g</span></li>
+                            </ul>
+                        </div>
+					     <div class="plan-price-meal" style="color:white">Ratings:4.3</div><br>
+                <div class="plan-price-meal" style="color:white">Calories:50g</div><br>
+
+                  <button class="cart-button"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                     <span class="add-to-cart" style="color:white">Add to cart</span>
+                     <span class="added">Added</span>
+                      <i class="fas fa-shopping-cart"></i>
+                      <i class="fas fa-box"></i>
+                  </button>
+                      <a class="youtube-link"  target="_blank"></a>
+                </div>
+				<br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+   </div>  
+   </div>
+  <script src = "add1.js"></script>
+
+ <script>
+ 
+
+ 
+ let days = document.getElementById('days');
+ let hours = document.getElementById('hours');
+ let minutes = document.getElementById('minutes');
+ let seconds = document.getElementById('seconds');
+ 
+ let dd = document.getElementById('dd');
+ let hh = document.getElementById('hh');
+ let mm = document.getElementById('mm');
+ let ss = document.getElementById('ss');
+ 
+
+  
+ let endDate='05/16/2024 18:25:00';
+
+ let x = setInterval(function(){
+  let now = new Date(endDate).getTime();
+  let countDown = new Date().getTime();
+  let distance = now-countDown;
+ 
+  //time calculation for days,hours,minutes and seconds
+  let d = Math.floor(distance/(1000*60*60*24));
+  let h = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+  let m = Math.floor((distance%(1000*60*60*24))/(1000*60));
+  let s = Math.floor((distance%(1000*60*60*24))/(1000));
+   
+  //output the result in element with id
+  days.innerHTML = d + "<br><span>Days</span>";
+  hours.innerHTML = h + "<br><span>Hours</span>";
+  minutes.innerHTML = m + "<br><span>Minutes</span>";
+  seconds.innerHTML = s + "<br><span>Seconds</span>";
+
+  // Animate stroke
+  dd.style.strokeDashoffset = 440-(440 * d)/365;
+  //365 days in an year
+  hh.style.strokeDashoffset = 440-(440 * h)/24;
+  //24 hours in a day
+  mm.style.strokeDashoffset = 440-(440 * m)/60;
+  //60 minutes in a hour
+  ss.style.strokeDashoffset = 440-(440 * s)/60;
+  //60 seconds in a minutes
+ 
+
+ 
+ //if the count down in over, write pongal text
+ if(distance < 0){
+  clearInterval(x);
+    document.getElementById("times").style.display="none";
+ document.getElementById("timer").style.display="none";
+  document.getElementById("timed").style.display="none";
+  document.getElementById("time").style.display="none";
+  document.querySelector(".pongal").style.display="block";
+    document.querySelector(".pongals").style.display="block";
+
+ }
+  
+ }
+ )
+ </script>
+</body> 
+</html>
